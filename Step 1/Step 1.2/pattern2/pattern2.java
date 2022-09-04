@@ -1,4 +1,5 @@
 package pattern2;
+
 import java.util.*;
 
 public class pattern2 {
