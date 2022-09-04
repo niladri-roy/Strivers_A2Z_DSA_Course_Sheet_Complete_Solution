@@ -1,6 +1,8 @@
+package pattern5;
+
 import java.util.*;
 
-public class pattern2 {
+public class pattern5 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -8,8 +10,8 @@ public class pattern2 {
         System.out.print("Enter the number of rows ");
         n = sc.nextInt();
         int i, j;
-        for (i = 1; i <= n; i++) {
-            for (j = 0; j < i; j++) {
+        for (i = 0; i<n; i++) {
+            for (j=n; j>i; j--) {
                 System.out.print("* ");
             }
             System.out.println();
